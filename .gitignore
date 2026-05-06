@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+
+# Local outputs and temporary files
+*.tmp
+*.log
+*.bak
+*_extract.txt
+
+# Local render artifacts
+amir_ir_render/
+amir_ir_suggestions_render/
+

@@ -20,10 +20,12 @@ This is the data preparation stage for later modelling and GIS-based analysis.
 ```text
 FYP/
 |-- notebooks/
-|   `-- nasa_power_regional_aggregation.ipynb
+|   |-- nasa_power_data_understanding.ipynb
+|   `-- data_preparation_&_modelling.ipynb
 |-- docs/
-|   `-- reviews/
-|       `-- Amir_IR_Fixes_and_Suggestions_Highlighted.docx
+|   |-- reviews/
+|   |   `-- Amir_IR_Fixes_and_Suggestions_Highlighted.docx
+|   `-- data_exploration_report.md
 |-- .gitignore
 |-- README.md
 `-- requirements.txt
@@ -39,5 +41,5 @@ pip install -r requirements.txt
 
 ## Notes
 
-- `notebooks/nasa_power_regional_aggregation.ipynb` is the current code entry point.
+- `notebooks/nasa_power_data_understanding.ipynb` is the main notebook — it covers data access, regional aggregation, and full exploratory analysis across all three regions.
 - `docs/reviews/Amir_IR_Fixes_and_Suggestions_Highlighted.docx` contains highlighted IR review suggestions and is kept under `docs/` instead of the repo root.

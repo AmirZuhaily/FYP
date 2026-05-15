@@ -3,4 +3,8 @@ s3fs
 xarray
 mlflow
 jupyter
-
+scikit-learn
+joblib
+earthengine-api
+geemap
+folium
